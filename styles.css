@@ -1,0 +1,131 @@
+:root {
+    --main-bgc-color-dark: #141D2F;
+    --main-bgc-color-light: #1E2A47;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+    background-color: var(--main-bgc-color-dark);
+    width: 100vw;
+    height: 100vh;
+}
+
+.main-card-container {
+    border-radius: 40px;
+    width: 50vw;
+    height: 50vh;
+    padding: 20px 40px;
+    box-sizing: border-box;
+}
+
+.main-card-informations {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-card-container h1 {
+    margin: 0px;
+    color: white;
+}
+
+.main-card-search-bar {
+    display: flex;
+    align-items: center;
+    background-color: var(--main-bgc-color-light);
+    width: 100%;
+    padding: 10px;
+    border-radius: 16px;
+    margin-top: 10px;
+    box-sizing: border-box;
+}
+
+.search-bar-logo {
+    color: blue;
+}
+
+#name-to-search {
+    background-color: var(--main-bgc-color-light);
+    border: none;
+    font-size: 1.4rem;
+    margin-left: 10px;
+    width: 150%;
+    outline: none;
+}
+
+.main-card-data-fetched-container {
+    background: var(--main-bgc-color-light);
+    width: 100%;
+    height: 100%;
+    padding: 40px 40px;
+    margin-top: 10px;
+    border-radius: 16px;
+    display: flex;
+    box-sizing: border-box;
+    gap: 40px;
+}
+
+.profile-img-container {
+    width: 20%;
+}
+
+.profile-img {
+    border-radius: 50%;
+    width: 100%;
+}
+
+.profile-data-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+.profile-data-name {
+    color: white;
+    font-weight: 700;
+    margin: 2px 0px;
+    font-size: 16px;
+}
+
+.profile-data-id {
+    color: #21BCFF;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.profile-data-bio {
+    color: #D6D3D1;
+    font-size: 12px;
+}
+
+.profile-data-git-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(11, 1, 46);
+    border-radius: 12px;
+    color: white;
+    text-align: center;
+    padding: 0px 40px;
+}
+
+[class$="-value"] {
+    font-weight: 800;
+    margin: 2px 0px;
+}
+
+[class$="-title"] {
+    margin: 4px 0px;
+}

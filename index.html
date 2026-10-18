@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>DevFinder</title>
+        <meta name="author" content="Matt RODRIGUEZ">
+        <meta name="description" content="A short description...">
+        <meta name="keywords" content="HTML, CSS, JavaScript">
+        <link href="./styles.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="main-container">
+            <div class="main-card-container">
+                <div class="main-card-informations">
+                    <h1>DevFinder</h1>
+                    <button>Light</button>
+                </div>
+                <div class="main-card-search-bar">
+                    <svg  xmlns="http://www.w3.org/2000/svg" width="24" height="24"  fill="#21BCFF" viewBox="0 0 24 24" >
+                        <!--Boxicons v3.0.8 https://boxicons.com | License  https://docs.boxicons.com/free-->
+                        <path d="M18 10c0-4.41-3.59-8-8-8s-8 3.59-8 8 3.59 8 8 8c1.85 0 3.54-.63 4.9-1.69l5.1 5.1L21.41 20l-5.1-5.1A8 8 0 0 0 18 10M4 10c0-3.31 2.69-6 6-6s6 2.69 6 6-2.69 6-6 6-6-2.69-6-6"></path>
+                    </svg>
+                    <form action="" method="post" class="form-example">
+                        <input type="text" name="name-to-search" id="name-to-search" required placeholder="Search GitHub username...">
+                        <button type="button" id="search-button">Search</button>
+                    </form>
+                </div>
+                <div class="main-card-data-fetched-container">
+                    <div class="profile-img-container">
+                        <img src="https://avatars.githubusercontent.com/u/583231?v=4" class="profile-img" alt="Profile image fetched">
+                    </div>
+                    <div class="profile-data-container">
+                        <div class="profile-data-account-container">
+                            <p class="profile-data-name">TITLE NAME</p>
+                            <p class="profile-data-id">@ID</p>
+                            <p class="profile-data-bio">Bio</p>
+                            <p class="profile-data-joined">Joined</p>
+                        </div>
+                        <div class="profile-data-git-container">
+                            <div class="repos-container">
+                                <p class="repos-title">Repos</p>
+                                <p class="repos-value">0</p>
+                            </div>
+                            <div class="followers-container">
+                                <p class="followers-title">Followers</p>
+                                <p class="followers-value">0</p>
+                            </div>
+                            <div class="following-container">
+                                <p class="following-title">Following</p>
+                                <p class="following-value">0</p>
+                            </div>
+                        </div>
+                        <div class="profile-data-link-container">
+                            <p class="profile-data-name">TITLE NAME</p>
+                            <p class="profile-data-id">@ID</p>
+                            <p class="profile-data-bio">Bio</p>
+                            <p class="profile-data-joined">Joined</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <script src="./script.js"></script>
+    </body>
+</html>
