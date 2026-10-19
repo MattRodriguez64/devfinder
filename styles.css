@@ -110,6 +110,13 @@ body {
     font-size: 12px;
 }
 
+.form-container {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  width: 100%;
+}
+
 .profile-data-git-container {
     display: flex;
     align-items: center;
@@ -119,6 +126,34 @@ body {
     color: white;
     text-align: center;
     padding: 0px 40px;
+}
+
+.profile-data-link-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    padding: 20px;
+}
+
+.profile-data-link-container p {
+    width: 40%;
+}
+
+#search-button {
+    background-color: #21BCFF;
+    border: none;
+    color: white;
+    font-size: 16px;
+    padding: 6px 10px;
+    border-radius: 4px;
+    font-weight: 700;
+}
+
+#search-button:hover {
+    background-color: #BEDBFF;
+    color: var(--main-bgc-color-dark);
 }
 
 [class$="-value"] {
