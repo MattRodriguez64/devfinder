@@ -137,8 +137,12 @@ body {
     padding: 20px;
 }
 
-.profile-data-link-container p {
+.link-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
     width: 40%;
+    color: white;
 }
 
 #search-button {
@@ -154,6 +158,7 @@ body {
 #search-button:hover {
     background-color: #BEDBFF;
     color: var(--main-bgc-color-dark);
+    cursor: pointer;
 }
 
 [class$="-value"] {
@@ -163,4 +168,25 @@ body {
 
 [class$="-title"] {
     margin: 4px 0px;
+}
+
+
+@media only screen and (max-width:1000px) {
+    .main-card-container {
+        width: 400px;
+        height: 600px;
+    }
+
+    .main-card-data-fetched-container {
+        flex-direction: column;
+    }
+
+    .profile-img-container {
+        margin: auto;
+        width: 30%;
+    }
+
+    .profile-data-git-container {
+        padding: 0px 20px;
+    }
 }
