@@ -121,7 +121,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: rgb(11, 1, 46);
+    background-color: #0b012e;
     border-radius: 12px;
     color: white;
     text-align: center;
@@ -143,6 +143,22 @@ body {
     gap: 10px;
     width: 40%;
     color: white;
+}
+
+#light-button {
+    background-color: white;
+    border: none;
+    color: var(--main-bgc-color-dark);
+    font-size: 16px;
+    padding: 6px 10px;
+    border-radius: 4px;
+    font-weight: 700;
+}
+
+#light-button:hover {
+    background-color: #BEDBFF;
+    color: var(--main-bgc-color-dark);
+    cursor: pointer;
 }
 
 #search-button {
